@@ -17,15 +17,6 @@ body, html {
     right: 0;
     bottom: 0;
 }
-.background-icon{
-    background-image: url('img/ECOALIZA.png');
-    background-repeat: no-repeat;
-    top: 150px;
-    left: 20px;
-    right: 10px;
-    bottom: 10px;
-    height: 50px; 
-}
 
 .caixa-de-texto-eco {
     color: #3A9D23;
@@ -46,7 +37,7 @@ body, html {
         background-color: #f5f5f5; /* Cor de fundo da caixa */
         border: 1px solid #ccc; /* Borda da caixa */
         padding: 10px; /* Preenchimento interno da caixa */
-        margin: 70px 0 20px 150px; /* Alinha à direita definindo margin-left como "auto" */
+        margin: 70px 0 20px 950px; /* Alinha à direita definindo margin-left como "auto" */
         
 }
 .label-titulo-login{
@@ -165,6 +156,28 @@ body, html {
     line-height: normal;
     margin: 15px 10px 8px 46px;
 }
+/* Estilos para o contêiner do select personalizado */
+.custom-select {
+    position: relative;
+    width: 150px;
+    margin: 20px;
+  }
+  
+  /* Estilize o select nativo para torná-lo invisível */
+  .custom-select select {
+    width: 100%;
+    padding: 10px;
+    appearance: none; /* Remova a aparência padrão do sistema (seta) */
+    border: none;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
+    outline: none;
+    background-color: #f5f5f5;
+    padding: 1px;
+    width: 345px;
+    margin: 1px 6px 6px 25px;
+  }
+
+  
 
 
 
