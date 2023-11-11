@@ -164,18 +164,77 @@ body, html {
   }
   
   /* Estilize o select nativo para torná-lo invisível */
-  .custom-select select {
-    width: 100%;
-    padding: 10px;
+
+  nav menuitem {
+   position:relative;
+   display:block;
+   opacity:0;
+   cursor:pointer;
+}
+
+nav menuitem > menu {
+   position: absolute;
+   pointer-events:none;
+}
+nav > menu { display:flex; }
+
+nav > menu > menuitem { pointer-events: all; opacity:1; }
+menu menuitem a { white-space:nowrap; display:block; }
+   
+menuitem:hover > menu {
+   pointer-events:initial;
+}
+menuitem:hover > menu > menuitem,
+menu:hover > menuitem{
+   opacity:1;
+}
+
+
+nav { 
+   margin-top: 30px;
+   margin-left: 20px;
+}
+
+nav a {
+   min-width:150px;
+   transition: background 0.5s, color 0.5s, transform 0.5s;
+   padding:20px 40px;
+   box-sizing:border-box;
+   position:relative;
+   color: #7E7E7E;
+   font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    width: 344px;
+    flex-shrink: 0;
     appearance: none; /* Remova a aparência padrão do sistema (seta) */
     border: none;
-    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
-    outline: none;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo outline: none;*/
     background-color: #f5f5f5;
     padding: 1px;
-    width: 345px;
-    margin: 1px 6px 6px 25px;
-  }
+    margin: 1px 150px 6px -10px;
+}
+
+nav a:hover:before {
+   content: '';
+   top:0;left:0;
+   position:absolute;
+   background:rgba(0, 0, 0, 0.2);
+   width:100%;
+   height:100%;
+}
+
+nav > menu > menuitem > a + menu:after{ 
+   content: '';
+   position:absolute; /*arrow*/
+   border:10px solid transparent;
+   border-top: 8px solid #7E7E7E;
+   left: 330px;
+   top: -40px;  
+}
+
 
   
 
