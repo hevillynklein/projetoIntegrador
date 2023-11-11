@@ -234,6 +234,28 @@ nav > menu > menuitem > a + menu:after{
    left: 330px;
    top: -40px;  
 }
+.form-buttonCad{
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 30px 8px 10px;
+    border-radius: 18px;
+    border: 1px solid #7E7E7E;
+    margin: 1px 1px 8px 50px;
+    color: #7E7E7E;
+}
+.form-buttonCadTwo{
+    width: 1px;
+    height: 20px;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 30px 8px 10px;
+    border-radius: 18px;
+    border: 1px solid #7E7E7E;
+    margin: 1px 1px 1px 2px;
+    color: #7E7E7E;
+}
 
 
   
