@@ -90,14 +90,59 @@ header {
     line-height: normal;
     margin: 15px 1px 10px 50px;
 }
-.text-home{
+.overlay-text {
+    position: absolute;
+    top: 49%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    color: white; /* Cor do texto */
+
+}
+
+.overlay-text h1 {
     color: #3A9D23;
     font-family: Poppins;
-    background-color: aquamarine;
     font-size: 16px;
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-align: left;
+    line-height: normal;
+    text-transform: uppercase;
+  
+}
+.overlay-text h2 {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+
+}
+
+.overlay-text p {
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+.bottom-biggest{
+    width: 190px;
+    height: 38px;
+    flex-shrink: 0;
+    border-radius: 18px;
+    border: 2px  #3A9D23; 
+    background: #3A9D23;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin: 30px 1px 10px 50px;
     text-transform: uppercase;
 }
 
