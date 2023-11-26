@@ -10,6 +10,12 @@ header {
     color: #fff;
     text-align: center;
 }
+.header-two{
+    position: relative;
+    height: 60vh;
+    color: #fff;
+    text-align: center;
+}
 
 .background-image {
     position: absolute;
@@ -28,6 +34,17 @@ header {
     width: 1500px;
     height: 300px;
     background-image: url('img/servicesOil.png'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+
+}
+.background-depoimentos{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1550px;
+    top: 100;
+    height: 300px;
+    background-image: url('img/depoimentos.png'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
     background-size: cover;
 
 }
@@ -284,6 +301,127 @@ header {
 
 
 }
+.label-depoimentos{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+    width: 390px;
+
+}
+
+.container-caixas {
+    display: flex;
+   
+  }
+
+  .caixa-texto {
+    width: 430px;
+    height: 170px;
+    line-height: 1.3;
+    border-radius: 32px;
+    background: #3A9D23;
+    background-color: #3A9D23; /* Verde */
+    color: #fff; /* Texto branco */
+    border: 2px solid #3A9D23;
+    padding: 10px;
+    margin: 10px;
+    overflow: hidden; /* Garante que o texto não ultrapasse as bordas da caixa */
+    text-overflow: ellipsis; /* Adiciona reticências para indicar que há mais texto */
+    text-align: justify;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+  }
+  .label-depoimento{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .sub-depoimento{
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+.container-forms{
+    position: relative;
+    width: 100%;
+  }
+.imagem-inteira {
+    position: relative;;
+    width: 1500px; /* A imagem ocupa 100% da largura da tela */
+    height: 583px; /* A altura é ajustada automaticamente para manter a proporção original */
+    display: block; /* Remove espaçamento extra abaixo da imagem */
+  }
+.label-depoimentoForms{
+    z-index: 2;
+    top: 100px;
+    right: 500px;
+    width: 581;
+    height: 48px;
+    position: absolute;
+    color: #3A9D23;
+    font-family: Poppins;
+    transform: translate(-50%, -50%);
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-transform: uppercase;
+}
+.text-forms{
+    z-index: 3;
+    color: #FFF;
+    top: 150px;
+    right: 966px;
+    position: absolute;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 171.429% */
+}
+.form__input{
+    z-index: 3;
+    border: none;
+    top: 280px;
+    right: 1018px;
+    color: #fff;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
+    outline: none;
+    position: absolute;
+    background-color: transparent;;
+    padding: 1px;
+    width: 344.006px;
+  
+  }
+.label-forms{
+    z-index: 3;
+    top: 250px;
+    right: 1235px;
+    position: absolute;
+    color: #E3E3E3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
 
 @media only screen and (max-width: 768px) {
     .navbar {
