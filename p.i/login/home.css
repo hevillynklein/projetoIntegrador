@@ -362,13 +362,13 @@ header {
   }
 .imagem-inteira {
     position: relative;;
-    width: 1500px; /* A imagem ocupa 100% da largura da tela */
-    height: 583px; /* A altura é ajustada automaticamente para manter a proporção original */
-    display: block; /* Remove espaçamento extra abaixo da imagem */
+    width: 1500px; 
+    height: 583px; 
+    display: block; 
   }
 .label-depoimentoForms{
     z-index: 2;
-    top: 100px;
+    top: 60px;
     right: 500px;
     width: 581;
     height: 48px;
@@ -385,7 +385,7 @@ header {
 .text-forms{
     z-index: 3;
     color: #FFF;
-    top: 150px;
+    top: 110px;
     right: 966px;
     position: absolute;
     font-family: Poppins;
@@ -394,24 +394,25 @@ header {
     font-weight: 600;
     line-height: 24px; /* 171.429% */
 }
-.form__input{
+.form_input-nameFunction{
+    stroke-width: 1px;
+    stroke: #E3E3E3;
+    color: #FFF;
     z-index: 3;
     border: none;
-    top: 280px;
+    top: 250px;
     right: 1018px;
-    color: #fff;
     border-bottom: 1px solid #a19c9c; /* Linha de fundo */
     outline: none;
     position: absolute;
     background-color: transparent;;
     padding: 1px;
     width: 344.006px;
-  
   }
-.label-forms{
+.label-nameFunction{
     z-index: 3;
-    top: 250px;
-    right: 1235px;
+    top: 218px;
+    right: 1280px;
     position: absolute;
     color: #E3E3E3;
     font-family: Poppins;
@@ -421,7 +422,170 @@ header {
     line-height: normal;
 }
 
+.label-nickname{
+    z-index: 3;
+    top: 280px;
+    right: 1315px;
+    position: absolute;
+    color: #E3E3E3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form_input-nickname{
+    stroke-width: 1px;
+    stroke: #E3E3E3;
+    color: #FFF;
+    z-index: 3;
+    border: none;
+    top: 310px;
+    right: 1018px;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
+    outline: none;
+    position: absolute;
+    background-color: transparent;;
+    padding: 1px;
+    width: 344.006px;
+  }
+.label-emailDp{
+    z-index: 3;
+    top: 350px;
+    right: 1252px;
+    position: absolute;
+    color: #E3E3E3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form_input-emailDp{
+    stroke-width: 1px;
+    stroke: #E3E3E3;
+    color: #FFF;
+    z-index: 3;
+    border: none;
+    top: 380px;
+    right: 1020px;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
+    outline: none;
+    position: absolute;
+    background-color: transparent;;
+    padding: 1px;
+    width: 344.006px;
+}
+.label-yourFunction{
+    z-index: 3;
+    top: 415px;
+    right: 1295px;
+    position: absolute;
+    color: #E3E3E3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form_input-yourFunction{
+    stroke-width: 1px;
+    stroke: #E3E3E3;
+    color: #FFF;
+    z-index: 3;
+    border: none;
+    top: 435px;
+    right: 1022px;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
+    outline: none;
+    position: absolute;
+    background-color: transparent;;
+    padding: 1px;
+    width: 344.006px;
+}
+.label-yourTestimony{
+    z-index: 3;
+    top: 470px;
+    right: 1265px;
+    position: absolute;
+    color: #E3E3E3;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.form_input-yourTestimony{
+    stroke-width: 1px;
+    stroke: #E3E3E3;
+    color: #FFF;
+    z-index: 3;
+    border: none;
+    top: 490px;
+    right: 1022px;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
+    outline: none;
+    position: absolute;
+    background-color: transparent;;
+    padding: 1px;
+    width: 344.006px;
+}
+.insertions-img{
+        position: absolute;
+        z-index: 3;
+        top: 0;
+        left: 975px;
+        width: 300px;
+        top: 100px;
+        height: 300px;
+        background-image: url('img/forms.jpeg'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+        background-size: cover;
+    
+}
+.label-img{
+    position: absolute;
+    top: 450px;
+    z-index: 3;
+    right: 267px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 
+}
+.bottom-form{
+        z-index: 3;
+        position: absolute;
+        width: 150px;
+        top: 535px;
+        left: 220px;
+        height: 40px;
+        border-radius: 18px;
+        border: 2px  #3A9D23; 
+        background: #3A9D23;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+    }
+.video-container {
+        position: relative;
+        width: 100%;
+        padding-bottom: 56.25%;
+        overflow: hidden;
+}
+  
+.video-iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+}
 
 @media only screen and (max-width: 768px) {
     .navbar {
