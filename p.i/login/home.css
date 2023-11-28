@@ -698,7 +698,7 @@ header {
     background-color: #f5f5f5; 
     border: 1px solid #ccc; 
     padding: 10px; 
-    left: 70px;
+    left: 170px;
 }
 .titlle-disponibilizar{
     position: relative;
@@ -735,7 +735,7 @@ header {
     }
 .button-continuarDisponibilizar{
         position: relative; 
-        width: 92px;
+        width: 110px;
         height: 38px;
         border-radius: 18px;
         border: 2px  #3A9D23; 
@@ -749,6 +749,70 @@ header {
         top: 15px;
         left: 355px;
     }
+.box-historico{
+        position: relative;
+        width: 500px; 
+        height: 450px; 
+        background-color: #f5f5f5; 
+        border: 1px solid #ccc; 
+        padding: 10px; 
+        left: 790px;
+        top: -470px;
+    }
+.titlle-historico{
+        position: relative;
+        color: #7E7E7E;
+        font-family: Poppins;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        left: 70px;
+        top: 10px;
+    }
+table{
+    position: relative;
+    width: 150px;
+    border-collapse: collapse;
+    margin-top: 40px;
+    left: 50px;
+}
+
+th{
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 3px;
+    width: 180px;
+    text-align: center;
+    color: #7E7E7E;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+   
+}
+td {
+    border: 1px solid #ddd;
+    padding: 15px;
+    text-align: center;
+    color: #7E7E7E;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+.box-reciclagem{
+    position: relative;
+   left: 140px;
+    width: 1200px;
+    height: 493px;
+    flex-shrink: 0; 
+    background-color: #f5f5f5; 
+    border: 1px solid #ccc; 
+   
+}
 
 
 
