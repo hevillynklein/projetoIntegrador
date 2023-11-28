@@ -214,6 +214,8 @@ header {
 
 }
 
+
+
 .overlay-text-th h1 {
     color: #3A9D23;
     font-family: Poppins;
@@ -542,6 +544,28 @@ header {
         background-size: cover;
     
 }
+.insertions-icons{
+    position: relative;
+    z-index: 3;
+    top: -125px;
+    left: 975px;
+    width: 150px;
+    height: 30px;
+    background-image: url('img/iconsFooter.png'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+
+}
+.insertions-iconEcoaliza{
+    position: relative;
+    z-index: 3;
+    top: -10px;
+    left: 975px;
+    width: 193px;
+    height: 31px;
+    background-image: url('img/ECOALIZA\ \(2\).png'); /* Substitua 'sua-imagem.jpg' pelo caminho da sua imagem de fundo */
+    background-size: cover;
+
+}
 .label-img{
     position: absolute;
     top: 450px;
@@ -574,18 +598,160 @@ header {
     }
 .video-container {
         position: relative;
-        width: 100%;
-        padding-bottom: 56.25%;
         overflow: hidden;
+        top: 1100px;
+        border: 8px solid #3A9D23; /* Cor e largura da borda */
+        overflow: hidden; /* Garante que a borda não sobreponha o vídeo */
+        border-radius: 35px;
 }
+.overlay-text-video{
+    color: #3A9D23;
+    font-family: Poppins;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    width: 200%;
+    text-transform: uppercase;
+    z-index: 3;
+    position: absolute;
+    top: 1720px;
+    left: 420px;
+    height: 40px;
+    border-radius: 18px;
+        
+    
   
-.video-iframe {
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
 }
+.container-footer{
+    position: relative;
+    top: 1200px;
+    width: 1475px;
+    height: 376px;
+    flex-shrink: 0;
+    border-radius: 40px 40px 0px 0px;
+    background: #323232;
+    
+}
+.container-footer-dp{
+    position: relative;
+    top: 100px;
+    width: 1475px;
+    height: 376px;
+    flex-shrink: 0;
+    border-radius: 40px 40px 0px 0px;
+    background: #323232;
+    
+}
+.footer-tittle-service{
+    color: #FFF;
+    position: relative;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 95px;
+    left: 200px;
+    right: 200px;
+}
+.footer-subtittle-service{
+    color: #FFF;
+    font-family: Poppins;
+    position: relative;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 120px;
+    left: 200px;
+    right: 200px;
+}
+.footer-tittle-help{
+    color: #FFF;
+    position: relative;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: uppercase;
+    top: 28px;
+    left: 740px;
+    right: 200px;
+}
+.footer-subtittle-help{
+    color: #FFF;
+    font-family: Poppins;
+    position: relative;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: 35px;
+    left: 740;
+    right: 200px;
+}
+.box-foms-disponibilizar{
+    position: relative;
+    width: 500px; 
+    height: 450px; 
+    background-color: #f5f5f5; 
+    border: 1px solid #ccc; 
+    padding: 10px; 
+    left: 70px;
+}
+.titlle-disponibilizar{
+    position: relative;
+    color: #7E7E7E;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    left: 34px;
+    top: -8px;
+}
+.form_input-nomeForms{
+    position: relative;
+    border: none;
+    border-bottom: 1px solid #a19c9c; /* Linha de fundo */
+    outline: none;
+    background-color: #f5f5f5;
+    padding: 1px;
+    width: 395.006px;
+    top: -15px;
+    left: 35px;
+  }
+.form_label-nomeForms{
+    position: relative;
+    color: #7E7E7E;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    top: -15px;
+    left: 35px;
+    }
+.button-continuarDisponibilizar{
+        position: relative; 
+        width: 92px;
+        height: 38px;
+        border-radius: 18px;
+        border: 2px  #3A9D23; 
+        background: #3A9D23;
+        color: #FFF;
+        font-family: Poppins;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: normal;
+        top: 15px;
+        left: 355px;
+    }
+
+
+
 
 @media only screen and (max-width: 768px) {
     .navbar {
